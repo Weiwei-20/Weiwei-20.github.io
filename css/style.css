@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Shrikhand&display=swap");
+
+html {
+  font-family: "Open Sans", sans-serif;
+  font-size: 20px;
+  line-height: 1.8em; /*space between lines*/
+}
+body {
+  color: #414141; /*text color in body*/
+  background-color: rgb(241, 227, 228);
+  /*background-image: url(../images/background\ repeat.jfif); /*this is the very back background.*/
+}
+h1 {
+  font-size: 2em;
+}
+h1,
+h2 {
+  font-family: "Shrikhand", cursive;
+  font-weight: normal;
+}
+h3,
+h4,
+h5 {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  width: 1200px;
+  /*background-color: white; remove this container background later*/
+}
+img {
+  border-radius: 10px;
+}
+.projects__project {
+  /*border: 1px solid; /*delete later*/
+  border-radius: 0px; /*for change the corner*/
+  background-color: rgb(253, 253, 253, 0.5);
+}
+
+a {
+  text-decoration: none; /*removed all underlines*/
+}
