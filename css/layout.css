@@ -2,21 +2,18 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0; /*remove default styles to a predictable value using the universal CSS selector**/
-  /* height: 100vh; /*it is taking more space on screen. this is the backgroud of the picture part*/
+  /* height: 100vh; /*it is taking more space on screen. this is the background of the picture part*/
 }
 
 .container {
   display: grid;
   grid-template-rows: 200px auto 75px;
-  width: 1200px;
-  margin: 0 auto;
+  width: 1000px;
+  margin: auto;
   min-height: 100vh;
   /*margin-bottom: ; something here to get the mover up and down b*/
 }
-h1 {
-  padding: 10px 20px 10px 5px;
-  /*border: 1px solid #5d6063;*/
-}
+
 header {
   display: flex;
   justify-items: space-between;
@@ -24,7 +21,7 @@ header {
 }
 nav a {
   display: block;
-  color: black;
+  color:rgb(54, 54, 54);
 }
 a {
   text-decoration: none;
@@ -39,8 +36,9 @@ header > nav {
 
 #header-img {
   margin-left: 1rem;
-  margin-right: 18rem;
+  margin-right: 16rem;
   max-width: 300px;
+  box-shadow: 5px 5px 15px rgb(54, 54, 54);
 }
 
 nav ul {
@@ -49,16 +47,10 @@ nav ul {
   padding: 0;
   margin-right: 1rem;
 }
-ul {
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-}
+
 nav li {
   margin: 0 0.47em;
-  color: black;
+  color:rgb(54, 54, 54);
 }
 .main {
   margin: 10px 0;
@@ -70,47 +62,65 @@ nav li {
   justify-content: space-between;
 }
 .about__intro {
-  margin: 10px auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   display: flex;
   flex-direction: column;
   width: 100%;
-  padding: 10px;
+  margin: 5rem ;
+ 
 }
 
 .profile-picture {
-  width: 25vw;
-  padding: 50px;
+  width: 20vw;
+  border-radius: 50%;
+  box-shadow: 5px 10px 10px rgb(54, 54, 54);
 }
 .about {
   background-color: rgba(253, 253, 253, 0.5);
-  margin-top: 20px;
-  margin-bottom: 20px;
 }
 
-section {
-  padding: 20px;
+.main-content__title{
+  display: flex;
+  justify-content: center;
+  margin: 4rem;
+  color: rgb(54, 54, 54); 
+  text-shadow:5px 5px 0 rgb(179, 235, 189);
+}
+section{
+  margin-top: 10px;
+}
+
+.skills{
+  background-color: rgba(179, 235, 189,0.3);
+  padding: 4rem ;
 }
 .projects__project {
-  margin: 10px auto;
+  margin: auto;
   display: grid;
   grid-template-columns: 3fr 1fr;
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 95%;
   padding: 10px;
+  
 }
 .project-img {
-  width: 360px;
+  width: 350px;
+  box-shadow: 4px 8px 5px rgb(54, 54, 54);
 }
+
 .project__title {
   align-self: center;
   padding: 10px;
 }
+.project__skills{
+  margin: 10px;
+}
+.project__description{
+  margin: 10px;
+}
 .project__date {
   align-self: flex-end;
-  padding: 5px;
+  padding: 10px;
 }
 .project__articles {
   display: grid;
@@ -141,7 +151,7 @@ section {
 .button:link,
 .button:visited {
   display: block;
-  color: #414141;
+  color:rgb(54, 54, 54);
   background-color: rgb(253, 253, 253, 0.5);
   font-weight: bold;
   padding: 10px;
@@ -163,4 +173,5 @@ section {
 .resume-img {
   display: grid;
   width: 1200px;
+  box-shadow: 5px 10px 15px rgb(54, 54, 54);
 }
