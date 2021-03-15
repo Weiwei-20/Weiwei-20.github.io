@@ -127,11 +127,10 @@ section{
   grid-template-columns: 1fr 1fr 1fr;
   gap: 10px;
 }
-
-.footer {
-  display: flex;
-  justify-self: center;
-  font-size: 18px;
+.resume-img {
+  display: grid;
+  width: 1200px;
+  box-shadow: 5px 10px 15px rgb(54, 54, 54);
 }
 
 .contact-icons {
@@ -141,10 +140,19 @@ section{
   justify-content: center;
 }
 .image-icon {
-  width: 70px;
-  margin: 20px;
+  width: 50px;
+  margin: -20px 20px 20px 20px;
 }
-.button {
+
+
+.footer {
+  display: flex;
+  justify-self: center;
+  font-size: 18px;
+  margin: 40px;
+}
+
+/* .button {
   text-align: center;
 }
 .button:link,
@@ -168,9 +176,5 @@ section{
 .button:visited:active {
   color: #fff;
   background-color: rgba(255, 37, 37, 0.5);
-}
-.resume-img {
-  display: grid;
-  width: 1200px;
-  box-shadow: 5px 10px 15px rgb(54, 54, 54);
-}
+} */
+
