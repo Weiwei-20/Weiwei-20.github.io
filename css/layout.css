@@ -131,18 +131,17 @@ section{
 .footer {
   display: flex;
   justify-self: center;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .contact-icons {
-  /*border: 1px solid black; for visual editing, delete later. */
   text-align: center;
   display: inline-flex;
   display: flex;
   justify-content: center;
 }
 .image-icon {
-  width: 50px;
+  width: 70px;
   margin: 20px;
 }
 .button {
