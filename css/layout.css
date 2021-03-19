@@ -83,14 +83,14 @@ nav li {
   justify-content: center;
   margin: 4rem;
   color: rgb(54, 54, 54); 
-  text-shadow:5px 5px 0 rgb(179, 235, 189);
+  text-shadow:5px 5px 0 rgb(203, 255, 213);
 }
 section{
   margin-top: 10px;
 }
 
 .skills{
-  background-color: rgba(179, 235, 189,0.3);
+  background-color: rgb(203, 255, 213, 0.5);
   padding: 4rem ;
 }
 .projects__project {
@@ -142,6 +142,9 @@ section{
 .image-icon {
   width: 50px;
   margin: -20px 20px 20px 20px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgb(54, 54, 54);
+
 }
 
 
