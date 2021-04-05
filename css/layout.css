@@ -21,7 +21,7 @@ header {
 }
 nav a {
   display: block;
-  color:rgb(54, 54, 54);
+  color: rgb(54, 54, 54);
 }
 a {
   text-decoration: none;
@@ -50,7 +50,7 @@ nav ul {
 
 nav li {
   margin: 0 0.47em;
-  color:rgb(54, 54, 54);
+  color: rgb(54, 54, 54);
 }
 .main {
   margin: 10px 0;
@@ -65,8 +65,7 @@ nav li {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin: 5rem ;
- 
+  margin: 5rem;
 }
 
 .profile-picture {
@@ -78,20 +77,20 @@ nav li {
   background-color: rgba(253, 253, 253, 0.5);
 }
 
-.main-content__title{
+.main-content__title {
   display: flex;
   justify-content: center;
   margin: 4rem;
-  color: rgb(54, 54, 54); 
-  text-shadow:5px 5px 0 rgb(203, 255, 213);
+  color: rgb(54, 54, 54);
+  text-shadow: 5px 5px 0 rgb(203, 255, 213);
 }
-section{
+section {
   margin-top: 10px;
 }
 
-.skills{
+.skills {
   background-color: rgb(203, 255, 213, 0.5);
-  padding: 4rem ;
+  padding: 4rem;
 }
 .projects__project {
   margin: auto;
@@ -101,7 +100,6 @@ section{
   flex-direction: column;
   width: 95%;
   padding: 10px;
-  
 }
 .project-img {
   width: 350px;
@@ -112,10 +110,10 @@ section{
   align-self: center;
   padding: 10px;
 }
-.project__skills{
+.project__skills {
   margin: 10px;
 }
-.project__description{
+.project__description {
   margin: 10px;
 }
 .project__date {
@@ -144,9 +142,7 @@ section{
   margin: -20px 20px 20px 20px;
   border-radius: 50%;
   box-shadow: 5px 5px 10px rgb(54, 54, 54);
-
 }
-
 
 .footer {
   display: flex;
@@ -180,4 +176,3 @@ section{
   color: #fff;
   background-color: rgba(255, 37, 37, 0.5);
 } */
-
