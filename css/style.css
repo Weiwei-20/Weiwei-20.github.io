@@ -3,7 +3,7 @@
 html {
   font-family: "Open Sans", sans-serif;
   font-size: 20px;
-  line-height: 1.8em; /*space between lines*/
+  line-height: 1.5em; /*space between lines*/
 }
 body {
   color: #414141;
@@ -25,12 +25,17 @@ h5 {
 .container {
   width: 1200px;
 }
-img {
-  border-radius: 10px;
+.header-img {
+  display: block;
+  align-self: flex-start;
+  margin: auto;
+  max-width: 300px;
+  box-shadow: 5px 5px 15px rgb(54, 54, 54);
 }
-.projects__project {
-  border-radius: 5px;
-  background-color: rgb(253, 253, 253, 0.5);
+.project-img {
+  max-width: 350px;
+  border-radius: 10px;
+  box-shadow: 4px 8px 5px rgb(54, 54, 54);
 }
 
 a {
@@ -38,9 +43,50 @@ a {
   color: inherit;
 }
 
-button{
+nav li {
+  padding: 0.5em;
+  color: rgb(54, 54, 54);
+}
+
+.profile-picture {
+  width: 18vw;
+  border-radius: 50%;
+  box-shadow: 5px 10px 10px rgb(54, 54, 54);
+}
+section {
+  margin-top: 10px;
+}
+
+.skills {
+  background-color: rgb(203, 255, 213, 0.5);
+  padding: 4rem;
+}
+
+.project__title {
+  align-self: center;
+  margin-top: 10px;
+}
+.project__skills,
+.project__description {
+  margin: 10px;
+}
+
+.resume-img {
+  border-radius: 10px;
+  width: 100%;
+  box-shadow: 5px 10px 15px rgb(54, 54, 54);
+}
+
+.image-icon {
+  width: 50px;
+  margin: -20px 20px 20px 20px;
+  border-radius: 50%;
+  box-shadow: 5px 5px 10px rgb(54, 54, 54);
+}
+
+button {
   width: 25%;
   background-color: rgb(203, 255, 213, 0.5);
-  border-radius: 5px;
-align-self: center;
+  border-radius: 10px;
+  align-self: center;
 }
