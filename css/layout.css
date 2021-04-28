@@ -1,8 +1,7 @@
 * {
   box-sizing: border-box;
   margin: 0;
-  padding: 0; /*remove default styles to a predictable value using the universal CSS selector**/
-  /* height: 100vh; /*it is taking more space on screen. this is the background of the picture part*/
+  padding: 0; /*remove default styles using the universal CSS selector *    */
 }
 
 .container {
@@ -11,7 +10,6 @@
   width: 1000px;
   margin: auto;
   min-height: 100vh;
-  /*margin-bottom: ; something here to get the mover up and down b*/
 }
 
 header {
@@ -22,9 +20,6 @@ header {
 nav a {
   display: block;
   color: rgb(54, 54, 54);
-}
-a {
-  text-decoration: none;
 }
 
 header > nav {

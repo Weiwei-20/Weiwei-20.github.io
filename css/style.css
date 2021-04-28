@@ -6,9 +6,8 @@ html {
   line-height: 1.8em; /*space between lines*/
 }
 body {
-  color: #414141; /*text color in body*/
+  color: #414141;
   background-color: rgb(241, 227, 228);
-  /*background-image: url(../images/background\ repeat.jfif); /*this is the very back background.*/
 }
 h1 {
   font-size: 2em;
@@ -25,17 +24,23 @@ h5 {
 }
 .container {
   width: 1200px;
-  /*background-color: white; remove this container background later*/
 }
 img {
   border-radius: 10px;
 }
 .projects__project {
-  /*border: 1px solid; /*delete later*/
-  border-radius: 0px; /*for change the corner*/
+  border-radius: 5px;
   background-color: rgb(253, 253, 253, 0.5);
 }
 
 a {
   text-decoration: none; /*removed all underlines*/
+  color: inherit;
+}
+
+button{
+  width: 25%;
+  background-color: rgb(203, 255, 213, 0.5);
+  border-radius: 5px;
+align-self: center;
 }
