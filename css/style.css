@@ -26,11 +26,11 @@ h5 {
   width: 1200px;
 }
 .header-img {
-  display: block;
-  align-self: flex-start;
-  margin: auto;
+ 
+ 
   max-width: 300px;
   box-shadow: 5px 5px 15px rgb(54, 54, 54);
+  border-radius: 10px;
 }
 .project-img {
   max-width: 350px;
